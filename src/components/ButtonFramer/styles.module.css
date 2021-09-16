@@ -1,10 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  row-gap: 0.2rem;
+}
+
 .button {
+  border-radius: 0.5rem;
   padding: 0.5rem;
+  border: none;
 }
 
 .div {
+  border: none;
   padding: 0.5rem;
   background: #aaa;
   color: #000;
+  border-radius: 0.5rem;
   display: inline-block;
 }

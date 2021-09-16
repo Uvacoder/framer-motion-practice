@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 export default function ButtonFramer() {
   const [isHovered, setIsHovered] = useState(false)
   return (
-    <div>
+    <div className={styles.container}>
       <motion.button
         whileHover={{
           scale: 1.1,
