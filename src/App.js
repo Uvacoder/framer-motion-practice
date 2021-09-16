@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <AnimationFramer />
-      <hr />
+      <Hr />
       <ButtonFramer />
     </div>
   )

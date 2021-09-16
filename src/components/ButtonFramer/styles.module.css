@@ -1,0 +1,10 @@
+.button {
+  padding: 0.5rem;
+}
+
+.div {
+  padding: 0.5rem;
+  background: #aaa;
+  color: #000;
+  display: inline-block;
+}
