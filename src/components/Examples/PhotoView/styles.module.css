@@ -1,0 +1,31 @@
+.photoviewer {
+  width: fit-content;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    'a b'
+    'c d';
+}
+
+.container:nth-child(1) {
+  grid-area: a;
+}
+
+.container:nth-child(2) {
+  grid-area: b;
+}
+.container:nth-child(3) {
+  grid-area: c;
+}
+.container:nth-child(4) {
+  grid-area: d;
+}
+.card {
+  display: inline-block;
+}
